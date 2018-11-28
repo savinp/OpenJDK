@@ -1,3 +1,2 @@
-set -xv
-#!/bin/bash
+#!/bash
 echo "hello"

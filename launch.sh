@@ -1,3 +1,2 @@
-#new script
-#!/bin/bash
+#!/bin/bash  \n
 echo "hello"

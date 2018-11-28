@@ -14,7 +14,7 @@ pipeline {
 	stage('Deploy'){
 	  steps{
 	    println('This is Deploy stage');
-	    sh 'launch.sh'
+	    sh './launch.sh'
 	  }
 	}
  }

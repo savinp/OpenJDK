@@ -15,6 +15,8 @@ pipeline {
 	  steps{
 	    println('This is Deploy stage');
 	    //sh "echo $PATH"
+	    sh "dos2unix launch.sh"
+	    sh "chmod 775 launch.sh"
 	    sh "launch.sh"
 	  }
 	}

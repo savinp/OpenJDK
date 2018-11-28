@@ -15,7 +15,7 @@ pipeline {
 	  steps{
 	    println('This is Deploy stage');
 	    sh "echo $PATH"
-	    ./launch.sh
+	    sh "launch.sh"
 	  }
 	}
  }

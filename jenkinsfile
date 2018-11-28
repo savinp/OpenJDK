@@ -14,6 +14,7 @@ pipeline {
 	stage('Deploy'){
 	  steps{
 	    println('This is Deploy stage');
+	    chmod 775 launch.sh
 	    sh './launch.sh'
 	  }
 	}
